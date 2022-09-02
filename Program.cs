@@ -1,13 +1,17 @@
-﻿using System;
-
-namespace ConsoleApp2
+﻿namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            string message = "Live and sleep!"
-            Console.WriteLine(message);
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Once upon a time");
+            Console.WriteLine("I was falling in love");
+            Console.WriteLine("Now I’m only falling apart");
+            
+            Console.WriteLine(" Once upon a time\n I was falling in love\n Now I’m only falling apart\n");
+
+
         }
     }
 }
